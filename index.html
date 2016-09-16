@@ -1,0 +1,40 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <title>弹幕墙</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script  src="../jquery-3.1.0.min.js"></script>
+    <script  src="danmuka.js"></script>
+
+</head>
+<body>
+    <div id="container">
+         <header>
+            <h1>弹幕墙（danmuka)</h1>
+            <p>下面有一面可以发射弹幕的墙，点击墙现体验它，点击墙隐隐藏它</p>
+        </header>
+        <div id="wrap">
+          <button id="dm-display">墙现</button>
+        <main id="dm">
+
+            <button id="dm-hide">墙隐</button>
+            <div id="dm-screen"></div>
+            <div id="dm-show"></div>
+            <form id="dm-input">
+                <input type="text" id="dm-text" placeholder="你不想说点啥子么？">
+                <button id="dm-send" type="submit">发射</button>
+                <button id="dm-clear" type="submit">清屏</button>
+
+            </form>
+        </main>
+        </div>
+
+        <footer>
+            <p>2016-09-16,wongxinyu</p>
+
+        </footer>
+    </div>
+
+
+</body>
